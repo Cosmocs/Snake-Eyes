@@ -26,3 +26,8 @@ while runner == True:
         print("Sum Roll")
     if total_roll == True:
         print("Total Roll")
+    if roll1 == roll2 == roll3:
+        print("Samesies Roll")
+    if roll1 == 1 and roll2 == 1 and roll3 == 1:
+        print("Three Eyes Snake!")
+        runner = False
